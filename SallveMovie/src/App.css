@@ -1,0 +1,126 @@
+.App {
+  color: #9F77FF;
+  padding-bottom: 24px;
+}
+
+h1 {
+  color: #FFC8B4;
+  margin: 100px 270px;
+  font-size: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+h1:hover {
+  color:#9F77FF;
+}
+
+.form{
+  margin-bottom: 22px;
+  margin-left: 100px;
+}
+
+
+.App-intro {
+  font-size: large;
+}
+
+.search-body {
+  background-color:rgb(241, 207, 228);
+  padding: 0;
+}
+
+.search{
+  background: transparent;
+  border: none;
+  color:rgb(65, 65, 65);
+  width: 100%;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+
+.dropdown-menu {
+  background-color:rgb(241, 207, 228);
+  width: 100%;
+}
+
+.dropdown-menu>li>a {
+  color: #888;
+}
+
+.search-details {
+  color: rgb(65, 65, 65);
+  padding-bottom: 15px;
+  margin-top: 35px;
+}
+
+.search-details h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: -350px;
+}
+
+.colorRed{
+  color: #FE5131;
+}
+
+.poster{
+  margin-left: 20px;
+}
+
+.poster-container {
+  padding: 0px;
+  margin-top: 100px;
+}
+
+h4 {
+  color: #9F77FF;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.details-label {
+  color: #9F77FF;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.actors, .genres, .release {
+  margin-top: 20px;
+}
+
+.display-block {
+  display: block;
+}
+
+.bot-border {
+  border-bottom: 1px solid #fff;
+}
+
+@media (max-width: 580px) {
+  .search-box {
+    margin-top: 22px;
+  }
+
+  .search-details {
+    margin-top: 0;
+}
+
+h1{
+  margin: 100px 0 50px 35px;
+}
+
+.search-details h2 {
+  margin-left: 0;
+}
+
+.form {
+  margin: 0 0 50px;
+}
+
+.poster-container {
+  margin-top: 0;
+}
+
+}
